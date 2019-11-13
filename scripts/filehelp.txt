@@ -1,0 +1,9 @@
+echo "Блочные устройства:"
+echo "Обычные файлы:"
+echo "Символьные ссылки:"
+echo "Символьные устройства:"
+ls -l ~ | grep ^-
+ls -l ~ | grep ^b
+ls -l ~ | grep ^c
+ls -l ~ | grep ^d
+ls -l ~ | grep ^l
