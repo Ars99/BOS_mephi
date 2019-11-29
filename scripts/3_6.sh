@@ -1,0 +1,5 @@
+#!/bin/bash
+STR="$USER$HOME"
+STR_LENGTH=${#STR}
+echo $USER $HOME $STR_LENGTH
+

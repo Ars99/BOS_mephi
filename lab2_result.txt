@@ -1,0 +1,61 @@
+.:
+итого 20
+drwxrwxr-x. 2 ars ars   68 ноя  1 14:28 animals
+-rw-------. 2 ars ars 7624 ноя  2 15:13 history_hard
+-rw-rw-r--. 1 ars ars 4152 ноя  1 19:23 lab1_history.txt
+-rw-rw-r--. 1 ars ars    0 ноя  2 15:36 lab2_result.txt
+-rw-r--r--. 1 ars ars 2554 окт 31 21:23 passwd
+lrwxrwxrwx. 1 ars ars   11 ноя  1 14:37 passwd_link -> /etc/passwd
+drwxrwxr-x. 3 ars ars   79 ноя  2 15:35 test
+-rw-rw-r--. 1 ars ars    0 сен 17 13:55 This is my file
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Видео
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Документы
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Загрузки
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Изображения
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Музыка
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Общедоступные
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Рабочий стол
+drwxr-xr-x. 2 ars ars    6 сен 17 13:36 Шаблоны
+
+./animals:
+итого 0
+-rw-rw-r--. 1 ars ars 0 окт 31 21:13 cat.txt
+-rw-rw-r--. 1 ars ars 0 окт 31 21:14 dog.txt
+-rw-rw-r--. 1 ars ars 0 окт 31 21:14 elephant.txt
+-rw-rw-r--. 1 ars ars 0 окт 31 20:48 lion
+
+./test:
+итого 8
+drw-rwxr-x. 2 ars  ars  22 ноя  2 14:28 dir
+-rw-r-----. 1 root ars   9 ноя  2 14:16 file
+-rw-------. 1 ars  ars   0 ноя  2 14:47 file1
+-rw-rw-rw-. 1 ars  ars   0 ноя  2 14:48 file2
+-rw-rw-rw-. 1 ars  ars 860 ноя  2 15:26 lab2_history.txt
+
+./test/dir:
+итого 0
+-????????? ? ? ? ?            ? new_file
+
+./Видео:
+итого 0
+
+./Документы:
+итого 0
+
+./Загрузки:
+итого 0
+
+./Изображения:
+итого 0
+
+./Музыка:
+итого 0
+
+./Общедоступные:
+итого 0
+
+./Рабочий стол:
+итого 0
+
+./Шаблоны:
+итого 0

@@ -1,0 +1,44 @@
+			
+  234  cd 
+  235  cd
+  236  mkdir test
+  237  cd test
+  238  touch file
+  239  ls -l ~/test/file
+  240  chmod -rwx
+  241  chmod ugo-rwx
+  242  chmod -rwx ~/test/file
+  243  cat >> ~/test/file
+  244  chmod u+w ~/test/file
+  245  ll ~/test/file
+  246  cat >> ~/test/file
+  247  cat ~/test/file
+  248  chmod g+r ~/test/file
+  249  ll file
+  250  cat file
+  251  cnmod u+r test
+  252  chmod u+r test
+  253  chmod u+r file
+  254  ls -l file
+  255  cat file
+  256  mkdir dir
+  257  touch dir/new_file
+  258  cat >> dir/new_file
+  259  ls dir
+  260  chmod u-x dir
+  261  cat dir/new_file
+  262  rm dir/new_file
+  263  chown root file
+  264  chown :root file
+  265  umask
+  266  umask 0077
+  267  touch file1
+  268  ll file1
+  269  umask 0000
+  270  touch file2
+  271  ll file2
+  272  su
+  273  cat file
+  274  su
+  275  cat file
+  276  history > lab2_history.txt
