@@ -1,0 +1,58 @@
+			
+  380  (while true; do printf "AAA %d" $$ >> ~/test.out; sleep 1; done)
+  381  jobs
+  382  ps j
+  383  bg
+  384  jobs
+  385  ps j
+  386  (while true; do printf "UUU %d" $$ >> ~/test.out; sleep 1; done)&
+  387  jobs
+  388  fg %1
+  389  fg %2
+  390  (while true; do printf "AAA %d" $$ >> ~/test.out; sleep 1; done)&
+  391  (while true; do printf "UUU %d" $$ >> ~/test.out; sleep 1; done)&
+  392  jobs
+  393  ps j
+  394  kill -SIGSTOP %1 
+  395  jobs
+  396  kill -SIGTERM %2 
+  397  jobs
+  398  fg
+  399  ( cat | head ) > ~/test.out 2> ~/test.err
+  400  mkfifo ~/fifo1
+  401  cat > ~/fifo1
+  402  touch test_read.sh
+  403  vim test_read.sh
+  404  bash test_read.sh
+  405  sh 
+  406  bash test_read.sh
+  407  ps -l
+  408  exec 3> ~/test.out
+  409  ls -l /proc/$$/fd
+  410  echo Test
+  411  echo Test3 >&3
+  412  cat ~/test.out
+  413  echo Test333 >&3
+  414  cat ~/test.out
+  415  echo $$
+  416  ls -l /proc/3203/fdinfo/
+  417  ls -l /proc/7882/fdinfo/
+  418  cat /proc/7882/fdinfo/3
+  419  exec 4< ~/test.out
+  420  ls -l /proc/$$/fd
+  421  cat ~/test.out
+  422  cat <&4
+  423  cat ~/test.out
+  424  cat <&4
+  425  echo Test4 >&3
+  426  cat ~/test.out
+  427  cat <&4
+  428  rm ~/test.out			
+  429  ls -l /proc/$$/fd
+  430  cat ~/test.out
+  431  touch 5.sh
+  432  vim 5.sh
+  433  ps axo ruid,euid,cmd | xargs -l bash 5.sh
+  434  history
+  435  cat history >> lab5_history.txt
+  436   history >> lab5_history.txt				
